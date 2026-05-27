@@ -1,0 +1,188 @@
+/* Página Inteira */
+body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(63, 0, 127), rgba(63, 0, 127, 0.67), rgba(63, 0, 127, 0.34), rgba(63, 0, 127, 0.01));
+    display: flex;
+    height: 72.5px;
+    justify-content: space-around;
+}
+
+.logo-horizontal {
+    height: auto;
+    max-height: 67.5px;
+}
+
+/* Apresentação Breve */
+.secao-principal {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    min-height: 400px;
+}
+
+.secao-principal p {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 20px;
+    height: auto;
+    justify-content: space-around;
+    margin: 50px;
+    min-height: 300px;
+    text-align: justify;
+}
+
+.secao-principal img {
+    border-color: rgb(205, 30, 0);
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 5px;
+    height: auto;
+    max-height: 350px;
+    margin: 50px;
+}
+
+/* Músicas mais famosas */
+.secao-secundaria {
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(190, 15, 0), rgb(205, 30, 0), rgb(220, 45, 0));
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 20px;
+    min-height: 25px;
+    padding: 20px;
+}
+
+.titulo-secao-secundaria {
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 22.5px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo-secao-secundaria:hover {
+    opacity: 0.85;
+}
+
+#eternxlkz-top10.escondido {
+    display: none;
+}
+
+.secao-secundaria table {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+
+.secao-secundaria table img {
+    border-radius: 24px;
+    max-height: 175px;
+}
+
+.secao-secundaria table td {
+    border-style: none;
+    padding: 15px;
+}
+
+.secao-secundaria table h3 {
+    font-size: 17.5px;
+}
+
+.secao-secundaria table button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    border-style: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 7.5px;
+    transition: background-color 0.1s ease, transform 0.1s ease;
+}
+
+.secao-secundaria table button:hover {
+    transform: scale(1.1);
+}
+
+.secao-secundaria table button:active {
+    transform: scale(0.95);
+}
+
+.secao-secundaria table td:nth-child(odd) {
+    text-align: center;
+}
+
+.secao-secundaria table td:nth-child(even) {
+    align-items: center;
+    display: block;
+    text-align: left;
+}
+
+/* Rodapé */
+.rodape {
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    border-top: rgb(45, 45, 45) solid 2px;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 15px;
+    font-style: italic;
+    justify-content: space-around;
+    margin-top: auto;
+    padding: 7.5px 0px;
+}
+
+.logo-vertical {
+    height: auto;
+    max-height: 72px;
+}
+
+.rodape p {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.circulo-rodape {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+
+.circulo-rodape img {
+    border-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 2.5px;
+    max-height: 45px;
+    max-width: 45px;
+    object-fit: contain;
+}

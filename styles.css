@@ -263,16 +263,16 @@ body {
     }
 
     .logo-vertical {
-        max-height: 47px;
+        max-height: 32px;
     }
 
     .circulo-rodape {
-        height: 15px;
-        width: 15px;
+        height: 27px;
+        width: 27px;
     }
 
     .circulo-rodape img {
-        max-height: 20px;
-        max-width: 20px;
+        max-height: 32px;
+        max-width: 32px;
     }
 }

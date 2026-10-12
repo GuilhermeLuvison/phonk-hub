@@ -1,10 +1,10 @@
-# Phonk Hub | Beta 1
+# Phonk Hub | Beta 2
 
-## Changelog da v1.1beta1
+## Changelog da v1.1beta2
 |||
 |-|-|
-|**Responsividade para telas de até 975px**|Compatilidade responsiva e design otimizado para dispositivos com telas de até 975px.|
-|**Animação para o Top10**|Ao apertar no botão para visualizar o Top10, a capsula exibirá uma animação suave, tanto para abertura do contéudo, quanto para fechamento. Já está disponível para dispositivos de até 975px.|
+|**Migração de PNG para WebP**|As imagens renderizadas no site agora utilizam o formato WebP, com foco em compatibilidade total com navegadores, otimização e redução de tamanho por arquivo. As imagens em formato PNG foram removidas.|
+|**Mudanças sutis**|O tamanho das imagens do rodapé foram melhor ajustadas para telas de até 975px; Mudanças no ranking (contagem de visualizações, ordem).|
 |||
 ## O que é o Phonk Hub?
 
@@ -33,7 +33,6 @@ A seção, por padrão, está recolhida graças aos comandos com JavaScript, e a
 ## Planejamentos Futuros
 
 - **Mais artistas:** Ogryzek sendo maior foco de inclusão, e outros.
-- **Mais animações:** Abertura e fechamento de menus com JavaScript mais suave.
 - **Ranking automatizado:** Talvez entre algo da área de Back-end aqui, como Node.js, PHP, SQL etc.
 - **Lançamento em URL:** GitHub Pages ou Vercel, ou até ambos.
 - **Painel de atualizações:** Será junto com o site, contendo as principais novidades de cada versão. Aplicação no REAME.md foi prevista para a v2.0, mas será lançado na v1.1.

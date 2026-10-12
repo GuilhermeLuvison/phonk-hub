@@ -2,7 +2,7 @@
 * {
     -webkit-tap-highlight-color: transparent;
     /* Sem bordas arredondadas para as versões beta */
-    border-radius: 0 !important;
+    /* border-radius: 0 !important; */
 }
 
 body {

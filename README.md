@@ -1,38 +1,41 @@
-# Phonk Hub | Beta 2
+# Phonk Hub
 
-## Changelog da v1.1beta2
-|||
+## Novidades da Versão 1.1🎉
+
+|Novidade|Descrição|
 |-|-|
-|**Migração de PNG para WebP**|As imagens renderizadas no site agora utilizam o formato WebP, com foco em compatibilidade total com navegadores, otimização e redução de tamanho por arquivo. As imagens em formato PNG foram removidas.|
-|**Mudanças sutis**|O tamanho das imagens do rodapé foram melhor ajustadas para telas de até 975px; Mudanças no ranking (contagem de visualizações, ordem).|
-|||
+|**Responsividade para telas de até 975px**|Layout adaptado e otimizado para dispositivos com telas de até 975px.|
+|**Animação no Top10**|Ao clicar no botão do Top 10, a cápsula abre e fecha com uma animação suave. Disponível para dispositivos de até 975px.|
+|**Migração de PNG para WebP**|As imagens renderizadas agora utilizam o formato WebP, que oferece maior compatibilidade com navegadores, otimização e menor tamanho de arquivo. As imagens em PNG foram removidas.|
+|**Ajustes no ranking**|Atualização da contagem de visualizações e da ordem das músicas.|
+
 ## O que é o Phonk Hub?
 
-O Phonk Hub, é um projeto em formato de um blog de fã, dedicado ao artista Eternxlkz (Nurbek Myssiyev), pelo menos por enquanto.
+O Phonk Hub é um projeto no formato de blog de fã, dedicado ao artista Eternxlkz (Nurbek Myssiyev), pelo menos por enquanto.
 
-Em sua versão legada, ele era um Blog sobre Músicas, contendo seções sobre o benefício da música, curiosidades e gêneros musicais, e ainda, havia um botão de like para a página em si. O site foi totalmente remodelado e direcionado a um único gênero musical digital, que se popularizou nos últimos anos.
+Na versão legada, o projeto era um blog sobre músicas, com seções sobre os benefícios da música, curiosidades e gêneros musicais, além de um botão de curtir para a própria página. O site foi totalmente reformulado e passou a focar em um único gênero musical digital, que ganhou popularidade nos últimos anos.
 
-De todos os projetos que fiz até aqui, este é o segundo (ou o primeiro se eu desconsiderar a versão legada) que contém JavaScript, além do CSS3 e HTML5. Na aba de 10 músicas mais tocadas, ela pode mostrar ou não mostrar (por padrão) as faixas mais tocadas do artista.
+Este é o segundo projeto que desenvolvi com JavaScript, depois de HTML5 e CSS3 (ou o primeiro, se a versão legada não for considerada). Na seção do Top 10 músicas mais tocadas, a lista fica recolhida por padrão e pode ser expandida pelo usuário.
 
-Para acessar este projeto, deve baixá-lo na sua máquina local e executar o index.html com o navegador. Futuramente será lançado no GitHub Pages ou Vercel.
+Para acessar o projeto, baixe-o no seu computador e abra o arquivo `index.html` no navegador. Futuramente, o site será publicado no GitHub Pages ou na Vercel.
 
 ## Seções
 
-### Apresentação Breve
+### Apresentação
 
-Um resumo sobre o artista Eternxlkz, junto de sua foto de perfil do Youtube.
+Um resumo sobre o artista Eternxlkz, acompanhado da foto de perfil do YouTube.
 
-#### Músicas mais famosas/tocadas
+#### Músicas mais famosas / mais tocadas
 
-Aqui é onde entra o ranking baseado no Youtube. Ele é estático, portanto, não se atualiza sozinho, requer atualização manualmente.
+Esta seção exibe o ranking com base no YouTube. O ranking é estático, ou seja, não se atualiza sozinho e precisa ser atualizado manualmente.
 
-Utiliza estrutura de tabelas sem bordas para organização - o meu objetivo aqui foi explorar as tabelas do HTML e estilizações com CSS.
+A seção utiliza uma tabela sem bordas para organizar o conteúdo. O objetivo foi explorar as tabelas em HTML e a estilização com CSS.
 
-A seção, por padrão, está recolhida graças aos comandos com JavaScript, e ao clicar, a seção se estende e é possível visualizar o top 10.
+Por padrão, a seção fica recolhida graças aos comandos em JavaScript. Ao clicar, ela se expande e exibe o Top 10.
 
 ## Planejamentos Futuros
 
-- **Mais artistas:** Ogryzek sendo maior foco de inclusão, e outros.
-- **Ranking automatizado:** Talvez entre algo da área de Back-end aqui, como Node.js, PHP, SQL etc.
-- **Lançamento em URL:** GitHub Pages ou Vercel, ou até ambos.
-- **Painel de atualizações:** Será junto com o site, contendo as principais novidades de cada versão. Aplicação no REAME.md foi prevista para a v2.0, mas será lançado na v1.1.
+- **Mais artistas:** Dar maior foco à inclusão de Ogryzek, entre outros.
+- **Ranking automatizado:** Possivelmente com algum recurso de back-end, como Node.js, PHP ou SQL.
+- **Publicação online:** GitHub Pages, Vercel ou ambos.
+- **Painel de atualizações:** Exibirá as principais novidades de cada versão diretamente no site. Estava previsto para a v2.0 no README, mas foi antecipado para a v1.1.

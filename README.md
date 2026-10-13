@@ -1,6 +1,8 @@
 # Phonk Hub
 
-## Novidades da Versão 1.1🎉
+🔗 **Acesse:** [Phonk Hub](https://phonk-hub-blog.vercel.app/)
+
+## Novidades da Versão 1.1 e 1.2🎉
 
 |Novidade|Descrição|
 |-|-|
@@ -8,6 +10,7 @@
 |**Animação no Top10**|Ao clicar no botão do Top 10, a cápsula abre e fecha com uma animação suave. Disponível para dispositivos de até 975px.|
 |**Migração de PNG para WebP**|As imagens renderizadas agora utilizam o formato WebP, que oferece maior compatibilidade com navegadores, otimização e menor tamanho de arquivo. As imagens em PNG foram removidas.|
 |**Ajustes no ranking**|Atualização da contagem de visualizações e da ordem das músicas.|
+|**Publicação Online**|Site lançado na plataforma Vercel.|
 
 ## O que é o Phonk Hub?
 
@@ -17,7 +20,7 @@ Na versão legada, o projeto era um blog sobre músicas, com seções sobre os b
 
 Este é o segundo projeto que desenvolvi com JavaScript, depois de HTML5 e CSS3 (ou o primeiro, se a versão legada não for considerada). Na seção do Top 10 músicas mais tocadas, a lista fica recolhida por padrão e pode ser expandida pelo usuário.
 
-Para acessar o projeto, baixe-o no seu computador e abra o arquivo `index.html` no navegador. Futuramente, o site será publicado no GitHub Pages ou na Vercel.
+Para acessar o projeto, basta clicar [neste link](https://phonk-hub-blog.vercel.app/) hospedado na plataforma Vercel. Para acessar o projeto em versão beta, baixe-o no seu computador como '.zip' e abra o arquivo `index.html` no navegador.
 
 ## Seções
 
@@ -37,5 +40,4 @@ Por padrão, a seção fica recolhida graças aos comandos em JavaScript. Ao cli
 
 - **Mais artistas:** Dar maior foco à inclusão de Ogryzek, entre outros.
 - **Ranking automatizado:** Possivelmente com algum recurso de back-end, como Node.js, PHP ou SQL.
-- **Publicação online:** GitHub Pages, Vercel ou ambos.
-- **Painel de atualizações:** Exibirá as principais novidades de cada versão diretamente no site. Estava previsto para a v2.0 no README, mas foi antecipado para a v1.1.
+- **Painel de atualizações:** Exibirá as principais novidades de cada versão diretamente no site.
